@@ -106,6 +106,7 @@ button {
 
 .brand-mark {
   display: grid;
+  overflow: hidden;
   width: 37px;
   height: 37px;
   place-items: center;
@@ -114,6 +115,14 @@ button {
   border-radius: 50%;
   font-size: 11px;
   letter-spacing: 0.04em;
+}
+
+.brand-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 34%;
 }
 
 .brand-name {
